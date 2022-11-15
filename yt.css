@@ -1,0 +1,265 @@
+.main{
+    width: 1090px;
+    height: 700px;
+    background: rgb(235, 245, 219);
+}
+
+.top-block{
+    width: 1090px;
+    height: 50px;
+    background: rgb(98, 107, 85);
+}
+
+.top-left{
+    width: 260px;
+    height: 50px;
+    background: rgb(175, 247, 69);
+    float: left;
+}
+
+.sidebar-space{
+    margin-top: 10px;
+    margin-left: 18px;
+    width: 23px;
+    height: 22px;
+    background: rgb(121, 192, 125);
+   float: left;
+}
+
+.ytlogo-space{
+    cursor: pointer;
+    margin-left: 12px;
+    width: 125px;
+    height: 50px;
+    background: rgb(171, 194, 138);
+    float: left;
+}
+
+.yt-logo{
+    width: 125px;
+    height: 50px;
+    background: rgb(146, 228, 24);
+    margin-top: -2px;
+}
+
+.ytlogo-inSpace{
+
+}
+.ytlogo-in{
+    font-family: sans-serif;
+    color: gray;
+    font-size: 10px;
+    margin-left: -10px;
+}
+
+.top-center{ 
+    margin-left:auto;
+    margin-right:auto;
+    width: 35%;
+    height: 50px;
+    background: rgb(104, 129, 104);
+   /* float: left;*/
+}
+
+.searchbar-space{
+    float: left;
+}
+
+.searchbar{
+    margin-top: 1px;
+    height: 35px;
+    width: 225px;
+}
+
+.searchbutton-space{
+    cursor: pointer;
+    background: rgb(197, 238, 197);
+    float: left;
+    height: 39px;
+    width: 65px;
+    margin-left: -0px;
+    margin-top: 2px;
+}
+
+.searchbutton{
+    cursor: pointer;
+    border: 0px;
+    background: 0;
+    background: url("searchicon.svg");
+    width: 17px;
+    height: 17px;
+    margin-left: 23px;
+    margin-top: 11px;
+}
+
+.searchmic-space{
+    border-radius: 50%;
+    cursor: pointer;
+    background: rgb(197, 238, 197);
+    float: left;
+    height: 42px;
+    width: 42px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.searchmic{
+    cursor: pointer;
+    border: 0px;
+    background: 0;
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.top-right{
+    margin-top: -50px;
+    float: right;
+    width: 185px;
+    height: 50px;
+    background: rgb(140, 151, 140);    
+}
+
+.settings-extraspace{
+    float: left;
+    background: rgba(255, 0, 0, 0.4);    
+    margin-top: 4px;
+    width: 43px;
+    height: 37px;
+}
+
+.settings-space{
+    height: 30px;
+    width: 30px;
+    margin-top: 17px;
+    margin-left: 5px;
+    background: rgb(167, 223, 167);
+}
+.settings-icon{
+    width: 3.5px;
+    height: 3.5px;
+    background: black;
+    margin: 3.5px;
+    margin-left: 14px;
+    border-radius: 50px;
+}
+
+.signin-space{
+    margin-top: -43px;
+    float: right;
+    width: 140px;
+    height: 45px;
+    background: rgb(73, 168, 73);
+}
+.signin-outer{
+    outline: solid rgb(87, 65, 221);
+    outline-width: 1px;
+    width:115px;
+    height: 40px;
+    background: rgb(129, 155, 129);
+    margin-left: 8px;
+}
+
+.signin-textspace{
+    
+}
+.signin-text{
+    font-size: 15px;
+    float: right;
+    margin-top: 12px;
+    margin-right: 12px;
+    font-family: sans-serif;
+    color: rgb(87, 65,221);
+    font-weight: bold;
+}
+
+.signin-logospace{
+    float: left;
+}
+.signin-logo{
+    margin-top: 7px;
+    margin-left: 15px;
+    width: 22px;
+    height: 22px;
+}
+
+.side-block{
+    float: left;
+    width: 70px;
+    height: 500px;
+    background:  rgb(170, 218, 184);
+}
+
+.sidemenu-img{
+    margin-top: 30px;
+    width: 25px;
+    height: 25px;
+    padding-left: 22px;
+}
+
+.sidemenu-options{
+    background: rgb(165, 236, 165);
+}
+
+.sidemenu-options:hover{
+    background: green;
+}
+
+.sidemenu-label{
+    background: rgb(124, 202, 124);
+    display: inline-block;    /* for label width**/
+    text-align: center;
+    width: 70px;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.hr1{
+    height: 0px;
+    margin-top: 0px;
+}
+
+.horiscroll-space{
+    float: left;
+    margin-top: 0px;
+    width: 1019px;
+    height: 50px;
+    background: rgb(110, 235, 110);
+}
+
+.horiscroll-options{
+    background: rgb(81, 207, 81);
+    width: 60px;
+    height: 30px;
+    outline: solid rgb(164, 164, 165);
+    outline-width: 0.1px;
+    border-radius: 50px;
+    margin: 10px;
+    float: left;
+}
+
+.horiscroll-links{
+    width: 60px;
+    display: inline-block;    /* for label width**/
+    text-align: center;
+    margin-top: 5px;
+   /* float: left;*/
+    font-family: sans-serif;
+}
+
+.main-space{
+    margin-top: 65px;
+    margin-left: 93px;
+    width: 1000px;
+    height: 1000px;
+    background: rgb(250, 250, 250);
+}
+
+.video-container{
+    margin-left: -16px;
+    width: 335px;
+    height: 318px;
+    background: green;
+}
