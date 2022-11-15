@@ -15,6 +15,7 @@
 }
 
 .sidebar-space{
+    cursor: pointer;
     margin-top: 10px;
     margin-left: 18px;
     width: 23px;
@@ -143,6 +144,7 @@
 }
 
 .settings-extraspace{
+    cursor: pointer;
     float: left;  
     margin-top: 4px;
     width: 43px;
@@ -171,6 +173,7 @@
     height: 45px;
 }
 .signin-outer{
+    cursor: pointer;
     outline: solid rgb(71, 70, 74);
     outline-width: 1px;
     width:115px;
@@ -190,6 +193,7 @@
     
 }
 .signin-text{
+    cursor: pointer;
     font-size: 15px;
     float: right;
     margin-top: 12px;
@@ -223,6 +227,7 @@
 }
 
 .sidemenu-options{
+    cursor: pointer;
 }
 
 .sidemenu-options:hover{
@@ -230,6 +235,7 @@
 }
 
 .sidemenu-label{
+    cursor: pointer;
     display: inline-block;    /* for label width**/
     text-align: center;
     width: 70px;
@@ -288,6 +294,7 @@
 }
 
 .video-container{
+    cursor: pointer;
     margin-left: -16px;
     width: 335px;
     height: 320px;
