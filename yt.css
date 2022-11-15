@@ -1,19 +1,16 @@
 .main{
     width: 1090px;
     height: 700px;
-    background: rgb(235, 245, 219);
 }
 
 .top-block{
     width: 1090px;
     height: 50px;
-    background: rgb(98, 107, 85);
 }
 
 .top-left{
     width: 260px;
     height: 50px;
-    background: rgb(175, 247, 69);
     float: left;
 }
 
@@ -22,7 +19,15 @@
     margin-left: 18px;
     width: 23px;
     height: 22px;
-    background: rgb(121, 192, 125);
+   float: left;
+}
+.sidebar-space:hover{
+    background: rgb(236, 235, 235);
+    margin-top: 10px;
+    margin-left: 18px;
+    width: 23px;
+    height: 22px;
+    border-radius: 3px;
    float: left;
 }
 
@@ -31,14 +36,12 @@
     margin-left: 12px;
     width: 125px;
     height: 50px;
-    background: rgb(171, 194, 138);
     float: left;
 }
 
 .yt-logo{
     width: 125px;
     height: 50px;
-    background: rgb(146, 228, 24);
     margin-top: -2px;
 }
 
@@ -57,7 +60,6 @@
     margin-right:auto;
     width: 35%;
     height: 50px;
-    background: rgb(104, 129, 104);
    /* float: left;*/
 }
 
@@ -72,13 +74,23 @@
 }
 
 .searchbutton-space{
+    border: 1px solid rgb(193, 192, 192);
+    background: rgb(232, 232, 232);
     cursor: pointer;
-    background: rgb(197, 238, 197);
     float: left;
     height: 39px;
     width: 65px;
-    margin-left: -0px;
-    margin-top: 2px;
+    margin-left: -1px;
+    margin-top: 1px;
+}
+.searchbutton-space:hover{
+    background: rgb(223, 221, 221);
+    cursor: pointer;
+    float: left;
+    height: 39px;
+    width: 65px;
+    margin-left: -1px;
+    margin-top: 1px;
 }
 
 .searchbutton{
@@ -93,14 +105,24 @@
 }
 
 .searchmic-space{
+    background: rgb(247, 247, 247);
     border-radius: 50%;
     cursor: pointer;
-    background: rgb(197, 238, 197);
     float: left;
     height: 42px;
     width: 42px;
     margin-left: 10px;
-    margin-top: 2px;
+    margin-top: 1px;
+}
+.searchmic-space:hover{
+    background: rgb(239, 239, 239);
+    border-radius: 50%;
+    cursor: pointer;
+    float: left;
+    height: 42px;
+    width: 42px;
+    margin-left: 10px;
+    margin-top: 1px;
 }
 
 .searchmic{
@@ -117,13 +139,11 @@
     margin-top: -50px;
     float: right;
     width: 185px;
-    height: 50px;
-    background: rgb(140, 151, 140);    
+    height: 50px;  
 }
 
 .settings-extraspace{
-    float: left;
-    background: rgba(255, 0, 0, 0.4);    
+    float: left;  
     margin-top: 4px;
     width: 43px;
     height: 37px;
@@ -134,7 +154,6 @@
     width: 30px;
     margin-top: 17px;
     margin-left: 5px;
-    background: rgb(167, 223, 167);
 }
 .settings-icon{
     width: 3.5px;
@@ -150,14 +169,20 @@
     float: right;
     width: 140px;
     height: 45px;
-    background: rgb(73, 168, 73);
 }
 .signin-outer{
-    outline: solid rgb(87, 65, 221);
+    outline: solid rgb(71, 70, 74);
     outline-width: 1px;
     width:115px;
     height: 40px;
-    background: rgb(129, 155, 129);
+    margin-left: 8px;
+}
+.signin-outer:hover{
+    background: rgb(239, 239, 239);
+    outline: solid rgb(71, 70, 74);
+    outline-width: 1px;
+    width:115px;
+    height: 40px;
     margin-left: 8px;
 }
 
@@ -170,7 +195,7 @@
     margin-top: 12px;
     margin-right: 12px;
     font-family: sans-serif;
-    color: rgb(87, 65,221);
+    color: rgb(65, 143, 221);
     font-weight: bold;
 }
 
@@ -188,7 +213,6 @@
     float: left;
     width: 70px;
     height: 500px;
-    background:  rgb(170, 218, 184);
 }
 
 .sidemenu-img{
@@ -199,15 +223,13 @@
 }
 
 .sidemenu-options{
-    background: rgb(165, 236, 165);
 }
 
 .sidemenu-options:hover{
-    background: green;
+    background: rgb(232, 235, 232);
 }
 
 .sidemenu-label{
-    background: rgb(124, 202, 124);
     display: inline-block;    /* for label width**/
     text-align: center;
     width: 70px;
@@ -226,15 +248,24 @@
     margin-top: 0px;
     width: 1019px;
     height: 50px;
-    background: rgb(110, 235, 110);
 }
 
 .horiscroll-options{
-    background: rgb(81, 207, 81);
+    background: rgb(242, 243, 242);
     width: 60px;
     height: 30px;
     outline: solid rgb(164, 164, 165);
-    outline-width: 0.1px;
+    outline-width: 0px;
+    border-radius: 50px;
+    margin: 10px;
+    float: left;
+}
+.horiscroll-options:hover{
+    background: rgb(229, 232, 229);
+    width: 60px;
+    height: 30px;
+    outline: solid rgb(164, 164, 165);
+    outline-width: 0px;
     border-radius: 50px;
     margin: 10px;
     float: left;
@@ -254,12 +285,10 @@
     margin-left: 93px;
     width: 1000px;
     height: 1000px;
-    background: rgb(250, 250, 250);
 }
 
 .video-container{
     margin-left: -16px;
     width: 335px;
-    height: 318px;
-    background: green;
+    height: 320px;
 }
